@@ -14,3 +14,10 @@ price=[789,346,568,33456,66789,3456,5678]
 sale=[int(c*0.6)for c in price]
 print('打折后的价格',sale)
 
+#条件判定
+price=[789,346,568,33456,66789,3456,5678]
+sale=[c for c in price if c<30000]
+print('打折后的价格',sale)
+print('源列表',price)
+print('价格小于30000',sale)
+
